@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="cn.leapinfo.feiyuexuetang.module.pdf.view.SimpleMuPDFViewerActivity">
+
+    <include layout="@layout/toolbar_with_back_title"/>
+
+    <RelativeLayout
+        android:id="@+id/pdf_doc_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </RelativeLayout>
+</LinearLayout>
